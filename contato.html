@@ -63,17 +63,32 @@
                     <p>Caso você viva em um ambiente trouxa, também pode entrar em contato através do formulário abaixo.</p> <br>
                 </div>
             </div>  
+            
+            <form>
+                <fieldset>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Nome completo</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escreva seu nome completo">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">E-mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                  </div>
+                <div class="form-group">
+                  
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Mensagem</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <p id="envio"><input type="submit" name="enviar" size="10" value="Enviar"></p>  
+            </fieldset>
+              </form>
+           
+            
 
-            <form class="text-center" method="POST" id="fContato" >
-                <fieldset id="usuario">
-                    <p>Nome: <input type="text" name="tNome" id="cNome" size="50" maxlength="80" placeholder="Nome Completo"></p>
-                    <p>E-mail: <input type="email" name="tMail" id="cMail" size="50" maxlength="40" placeholder="exemplo@exemplo.com.br"></p>
-                    
-                    <p>Mensagem: <br><textarea name="Mensagem" rows="10" cols="60" wrap="virtual"></textarea></p>
-                    <p id="envio"><input type="submit" name="enviar" size="10" value="Enviar"></p>
-                </fieldset>
-            </form>
 
+     
 
         </div>    
 
